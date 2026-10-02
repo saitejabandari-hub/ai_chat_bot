@@ -61,6 +61,6 @@ AI_chat_Bot/
 cd AI_chat_Bot
 python -m venv venv
 .\venv\Scripts\Activate.ps1
-pip install -r requirements.txt    #This install all the packages that need to be installed only which are in requirements.txt
+pip install -r .\requirement.txt    #This install all the packages that need to be installed only which are in requirements.txt
 
 streamlit run app.py    => helps to run locally
